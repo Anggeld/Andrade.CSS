@@ -1,0 +1,85 @@
+/* cuerpo */
+body{
+    background-color: whitesmoke;
+}
+strong{
+    color: red;
+}
+/* titulos */
+h1 {
+    color: green;
+    width: 300px;
+    text-align: center;
+}
+h2{
+    color: rgb(16, 240, 91);
+}
+/* centrar  */
+.centrado{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* enlaces sin linea */
+a{
+    text-decoration: none;
+    color: green;
+}
+a:hover{
+    color:red;
+}
+/* Caja centrada */
+div{
+    display: inline-block;
+    border: 5px outset green;
+    background-color: khaki;    
+    width: 300px;
+    padding-left: 350px;
+    padding-right: 350px ;
+    margin-left: 250px;
+    margin-right: 250px ;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    
+}
+/* fondos */
+.peter_fondo {
+    background-color: salmon;
+}
+.ray_fondo {
+    background-color: rgb(101, 79, 197);
+}
+.egon_fondo {
+    background-color: rgb(184, 218, 129);
+}
+.winston_fondo {
+    background-color: rgb(54, 157, 170);
+}
+/* tabla/listas */
+th {
+    background-color: #4CAF50;
+    color: white;
+  }
+tr:nth-child(even) {
+      background-color: whitesmoke;
+    }
+td{
+    background-color: whitesmoke;
+}
+ol{
+    color: green;
+    list-style-type: lower-alpha;
+}
+ul{
+    color: green;
+    list-style-type: square;
+}
+/* enlace externo */
+#link {
+    color: grey;
+}
+/* tamaño */
+.tamaño{
+    font-size: 20px;
+    font-family: sans-serif
+}
